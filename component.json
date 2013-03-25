@@ -1,0 +1,15 @@
+{
+  "name": "jquery",
+  "repo": "lge88/jquery",
+  "description": "jquery",
+  "version": "2.0.0-pre",
+  "homepage": "http://jquery.com",
+  "keywords": [],
+  "development": {},
+  "license": "MIT",
+  "upstream": "git://github.com/jquery/jquery.git",
+  "scripts": [
+    "dist/jquery.js"
+  ],
+  "main": "dist/jquery.js"
+}
