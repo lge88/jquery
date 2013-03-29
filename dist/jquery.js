@@ -9,7 +9,7 @@
  * Released under the MIT license
  * http://jquery.org/license
  *
- * Date: 2013-3-26
+ * Date: 2013-3-28
  */
 (function( window, undefined ) {
 
@@ -8684,7 +8684,7 @@ jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
 jQuery.fn.andSelf = jQuery.fn.addBack;
 
 // })();
-if ( typeof module === "object" && typeof module.exports === "object" ) {
+if ( (typeof module === "object" || typeof module === "function") && typeof module.exports === "object" ) {
 	// Expose jQuery as module.exports in loaders that implement the Node
 	// module pattern (including browserify). Do not create the global, since
 	// the user will be storing it themselves locally, and globals are frowned
